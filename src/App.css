@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 4em !important;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 20px 5vw;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #004AAD;
+  text-transform: uppercase;
+}
+
+/* nav .menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+} */
+
+/* section{
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.identity{
+  background-color: #004AAD;
+  height: 300vh;
+}
+
+.AboutUs{
+  padding-top: 10%;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px 50px;
+}
+
+.AboutUsCaption {
+  width: 40vw;
+  color: #fff;
+}
+
+.AboutUsImg {
+border: 10px solid white;
+width: 40vw;
+}
+
+.OurMission {
+  padding-top: 10%;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px 50px;
+}
+
+.OurMissionCaption {
+  width: 40vw;
+  color: #fff;
+}
+
+.DealerPartner {
+  padding-top: 10%;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px 50px;
+  color: #fff;
+  text-align: center;
+}
+
+.TotalDealers {
+  width: 100%;
+}
+
+.TotalDealersCount{
+  font-size: 5em;
+  font-weight: 500;
+}
+
+.TotalDealersCountIndonesia{
+  margin-top: -1em;
+  font-size: 2.5em;
+    font-weight: 500;
+}
+
+.logo {
+  height: 6em;
+  padding: 1em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
