@@ -1,0 +1,21 @@
+span.carousel-control-prev-icon{
+    background-color: grey;
+        left: -40%;
+        position: relative;
+        height: 15%;
+        width: 45%;
+        color: white;
+        background-size: 80%;
+        filter: blur(1px);
+}
+
+span.carousel-control-next-icon {
+    background-color: grey;
+    left: 27%;
+    position: relative;
+    height: 15%;
+    width: 45%;
+    color: white;
+    background-size: 80%;
+    filter: blur(1px);
+}

@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: calc(1em+1vw);
 }
 
 h2 {
-  font-size: 4em !important;
+  /* font-size: 4em !important; */
 }
 
 nav{
@@ -48,8 +49,9 @@ nav ul li a{
 } */
 
 .identity{
-  background-color: #004AAD;
-  height: 300vh;
+  background-color: #0080FF;
+  /* height: 300vh; */
+  color: #fff;
 }
 
 .AboutUs{
@@ -65,7 +67,7 @@ nav ul li a{
 }
 
 .AboutUsImg {
-border: 10px solid white;
+/* border: 10px solid white; */
 width: 40vw;
 }
 
@@ -95,14 +97,38 @@ width: 40vw;
 }
 
 .TotalDealersCount{
-  font-size: 5em;
+  font-size: 200%;
   font-weight: 500;
 }
 
 .TotalDealersCountIndonesia{
-  margin-top: -1em;
-  font-size: 2.5em;
-    font-weight: 500;
+  margin-top: -0.5em;
+  font-size: 300%;
+  font-weight: 500;
+}
+
+.line{
+  margin-top: -6%;
+}
+
+.line1{
+  position: relative;
+  top: 8vh;
+  transform : rotate(180deg);
+}
+
+.join {
+  background-color: #E8E3E3;
+  padding: 5%;
+  font-weight: 500;
+  color: grey;
+  border-radius: 20px;
+  margin-top: 10%;
+  font-size: 30px;
+}
+
+.join:hover{
+  background-color: #fff;
 }
 
 .logo {
