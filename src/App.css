@@ -131,9 +131,31 @@ width: 40vw;
   background-color: #fff;
 }
 
+.popup {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  top: 10vh;
+  opacity: 0.8;
+}
+
+.brandMenu:hover{
+background-color: grey;
+  opacity: 1;
+
+}
+
+.logoHome{
+  width: 90% !important;
+}
+
+.formulir{
+  background-color: #fff;
+  border-radius: 50px;
+}
+
 .logo {
-  height: 6em;
-  padding: 1em;
+  width: 10px;
   will-change: filter;
   transition: filter 300ms;
 }

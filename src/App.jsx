@@ -12,9 +12,21 @@ import "./App.css";
 import ControlledCarousel from "./components/ControlledCarousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 import map from "./assets/Artboard3z.png";
-import { Container, Col, Row, Image } from "react-bootstrap";
+import { Container, Col, Row, Image, Form, Button } from "react-bootstrap";
+import wa from "./assets/whatsapp.png";
+import email from "./assets/email.png";
+import address from "./assets/maps-and-flags.png";
 
 function App() {
+  // const [navHover, setNavHover] = useState(false);
+
+  // const handleMouseOver = () => {
+  //   setNavHover(true);
+  // };
+
+  // const handleMouseOut = () => {
+  //   setNavHover(false);
+  // };
   return (
     <>
       <NavbarIbb />
@@ -40,6 +52,55 @@ function App() {
         </div>
       </nav> */}
       <ControlledCarousel />
+      {/* <Container
+        className="d-flex justify-content-center align-item-center position-fixed popup"
+        fluid
+      >
+        <div>
+          <Row className="text-center">
+            <Col>
+              <Image className="brandMenu" width="300vw" src={brand} />
+            </Col>
+            <Col>
+              <Image className="brandMenu" width="300vw" src={brand} />
+            </Col>
+            <Col>
+              <Image className="brandMenu" width="300vw" src={brand} />
+            </Col>
+            <Col>
+              <Image className="brandMenu" width="300vw" src={brand} />
+            </Col>
+          </Row>
+          <Row className="text-center">
+            <Col>
+              <Image className="brandMenu" width="300vw" src={brand} />
+            </Col>
+            <Col>
+              <Image className="brandMenu" width="300vw" src={brand} />
+            </Col>
+            <Col>
+              <Image className="brandMenu" width="300vw" src={brand} />
+            </Col>
+            <Col>
+              <Image className="brandMenu" width="300vw" src={brand} />
+            </Col>
+          </Row>
+          <Row className="text-center">
+            <Col>
+              <Image className="brandMenu" width="300vw" src={brand} />
+            </Col>
+            <Col>
+              <Image className="brandMenu" width="300vw" src={brand} />
+            </Col>
+            <Col>
+              <Image className="brandMenu" width="300vw" src={brand} />
+            </Col>
+            <Col>
+              <Image className="brandMenu" width="300vw" src={brand} />
+            </Col>
+          </Row>
+        </div>
+      </Container> */}
       <Container className="identity py-5" fluid>
         <Row>
           <Col>
@@ -87,7 +148,7 @@ function App() {
           <div className="DealerPartner">
             <div className="DealerPartnerContent">
               <h2>Our Dealer Partner</h2>
-              <img src={map} className="TotalDealers" />
+              <img src={map} className="TotalDealers" alt="map" />
               <p className="TotalDealersCount">Total 200+ Dealers</p>
               <p className="TotalDealersCountIndonesia">All Across Indonesia</p>
             </div>
@@ -122,6 +183,71 @@ function App() {
             <Image src={biker} width="50%" />
           </Col>
         </Row>
+      </Container>
+      <Container
+        className="vh-100 d-flex flex-column justify-content-center align-items-center identity"
+        fluid
+      >
+        <Form className="formulir">
+          <Row className="m-5">
+            <h2 className="text-dark">Let us Know how we can support you</h2>
+            <h2 className="text-dark font-weight-bold">
+              <b>Contact Us Now</b>
+            </h2>
+          </Row>
+          <Row className="m-5 p-1">
+            <Col>
+              <Form.Control placeholder="Name" />
+            </Col>
+            <Col>
+              <Form.Control placeholder="Phone" />
+            </Col>
+            <Col>
+              <Form.Control placeholder="Email" />
+            </Col>
+          </Row>
+          <Row className="m-5 p-1">
+            <Form.Control placeholder="Message" />
+          </Row>
+          <Row
+            className="pb-3 d-flex justify-content-center align-items-center"
+            size="lg"
+          >
+            <Button className="w-25">Send</Button>
+          </Row>
+        </Form>
+        <div className="m-5 p-5">
+          <Row>
+            <h3 className="text-center">PT.INDONESIA BERSEPEDA BAHAGIA</h3>
+          </Row>
+          <Row>
+            <Col className="col-1">
+              <img src={wa} className="logoHome" alt="whatsapp" />
+            </Col>
+            <Col className="col-11">
+              <p>+62 898 9018 8188</p>
+            </Col>
+          </Row>
+          <Row>
+            <Col className="col-1">
+              <img src={email} className="logoHome" alt="email" />
+            </Col>
+            <Col className="col-11">
+              <p>sales@indonesiabersepeda.com</p>
+            </Col>
+          </Row>
+          <Row>
+            <Col className="col-1">
+              <img src={address} className="logoHome" alt="adress" />
+            </Col>
+            <Col className="col-11">
+              <p>
+                Puri Botanical, Jl. Joglo Raya No.10, Joglo, Kec. Kembangan,Kota
+                Jakarta Barat, Daerah Khusus Ibukota Jakarta 11460
+              </p>
+            </Col>
+          </Row>
+        </div>
       </Container>
     </>
   );
