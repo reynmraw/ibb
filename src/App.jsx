@@ -185,10 +185,10 @@ function App() {
         </Row>
       </Container>
       <Container
-        className="vh-100 d-flex flex-column justify-content-center align-items-center identity"
+        className="d-flex flex-column justify-content-center align-items-center identity"
         fluid
       >
-        <Form className="formulir">
+        <Form className="formulir mt-5">
           <Row className="m-5">
             <h2 className="text-dark">Let us Know how we can support you</h2>
             <h2 className="text-dark font-weight-bold">
@@ -228,7 +228,7 @@ function App() {
               <p>+62 898 9018 8188</p>
             </Col>
           </Row>
-          <Row>
+          <Row className="my-3">
             <Col className="col-1">
               <img src={email} className="logoHome" alt="email" />
             </Col>
