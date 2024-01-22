@@ -5,6 +5,11 @@
   font-size: calc(1em+1vw);
 }
 
+Nav {
+  font-family: 'Victor Mono', monospace;
+  /* font-weight: 500; */
+}
+
 h2 {
   /* font-size: 4em !important; */
 }
@@ -164,6 +169,20 @@ background-color: grey;
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.bannerLook{
+  background-image: url("./assets/bglook.jpg");
+  background-position: center;
+  background-size : cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.space {
+  background: rgb(0, 74, 173);
+    background: linear-gradient(180deg, rgba(0, 74, 173, 1) 0%, rgba(0, 128, 255, 1) 100%);
 }
 
 @keyframes logo-spin {

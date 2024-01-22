@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Image } from "react-bootstrap";
 import logo from "../assets/logo.png";
+import { faMultiply } from "@fortawesome/free-solid-svg-icons";
 
 const NavbarIbb = () => {
   return (
@@ -23,7 +24,7 @@ const NavbarIbb = () => {
             <Nav.Link style={{ color: "#004AAD" }} href="#link">
               BECOME OUR PARTNER DEALERS
             </Nav.Link>
-            <Nav.Link style={{ color: "#004AAD" }}  href="#link">
+            <Nav.Link style={{ color: "#004AAD" }} href="#link">
               OUR DEALERS
             </Nav.Link>
           </Nav>
