@@ -61,7 +61,7 @@ const Look = () => {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
@@ -159,12 +159,12 @@ const Look = () => {
           <Slider {...settings}>
             <div>
               <h3>
-                <img src={lookAero1} width={280} />
+                <img src={lookAero1} width="100%" />
               </h3>
             </div>
             <div>
               <h3>
-                <img src={lookAero2} width={280} />
+                <img src={lookAero2} width="100%" />
               </h3>
             </div>
             <div>
